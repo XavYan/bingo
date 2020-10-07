@@ -62,9 +62,14 @@ body {
 }
 
 .bingo-number {
+    height: 130px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: white;
     font-size: 60px;
-    padding: 40px 30px;
+    padding: 0;
     border: 1px solid black;
     border-radius: 30px;
     margin-bottom: 10px;
