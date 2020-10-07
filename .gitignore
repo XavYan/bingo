@@ -1,0 +1,12 @@
+# NPM modules
+node_modules
+
+# Parcel cache
+.cache
+
+# Development environment
+dist
+
+# Carpeta build
+build
+
