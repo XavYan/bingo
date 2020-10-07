@@ -5,6 +5,7 @@ body {
 .container {
     width: 100vw;
     height: 100vh;
+    background-color: #C0C0C0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -39,11 +40,18 @@ body {
 .card-number {
     display: flex;
     justify-content: center;
+    height: 100px;
+    background-color: white;
     align-items: center;
     margin: 5px;
     border: 1px solid black;
     border-radius: 10px;
     font-size: 40px;
+}
+
+.labeled {
+    color: red;
+    text-decoration: line-through;
 }
 
 .bingo {
@@ -54,9 +62,25 @@ body {
 }
 
 .bingo-number {
+    background-color: white;
     font-size: 60px;
     padding: 40px 30px;
     border: 1px solid black;
     border-radius: 30px;
     margin-bottom: 10px;
+}
+
+.number-list {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.number-list div {
+    text-align: center;
+    width: 20px;
+    margin: 3px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: white;
 }
