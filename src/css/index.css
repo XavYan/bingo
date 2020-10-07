@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titles {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 60%;
+}
+
+.titles h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.table {
+    display: grid;
+    width: 60%;
+    height: 45%;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.bingo-card {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    padding: 10px;
+}
+
+.card-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 40px;
+}
+
+.bingo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bingo-number {
+    font-size: 60px;
+    padding: 40px 30px;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
