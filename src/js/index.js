@@ -1,3 +1,5 @@
+import _ from 'lodash';
+
 const createCard = () => {
     const list = _.range(1,91);
     return _.shuffle(list).splice(0,15);
